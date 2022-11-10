@@ -28,9 +28,9 @@ namespace CarRentalTask.Controllers
             
         }
 
-        public void ListAllCars()
+        public List<Car> ListAllCars()
         {
-
+            return rentalDbContext.Cars;
         }
 
         public void RentCar()
@@ -38,9 +38,14 @@ namespace CarRentalTask.Controllers
 
         }
 
-        public void CheckCarAvailability()
+        public bool CheckCarAvailability(int carId)
         {
+            var searchedCar = rentalDbContext
+                .Cars
+                .First(C=>C.Id == carId);
 
+            return searchedCar.IsAvailable;
+      
         }
     }
 }
