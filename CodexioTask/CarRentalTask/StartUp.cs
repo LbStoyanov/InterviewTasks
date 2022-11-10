@@ -7,6 +7,7 @@ namespace CarRentalTask
         static void Main(string[] args)
         {
             using RentalDbContext context = new RentalDbContext();
+           
 
         }
     }

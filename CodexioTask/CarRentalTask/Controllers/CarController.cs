@@ -22,20 +22,35 @@ namespace CarRentalTask.Controllers
             rentalDbContext.SaveChanges();
         }
 
-        public void EditCar(Car car)
+        
+        public void EditCar(int carId,decimal price)
         {
-            var editedCar = rentalDbContext.Cars.FirstOrDefault(x => x.Id == car.Id);
+            var editedCar = rentalDbContext.Cars.FirstOrDefault(x => x.Id == carId);
+            editedCar.Price = price;
+            rentalDbContext.SaveChanges();
             
         }
 
         public List<Car> ListAllCars()
         {
-            return rentalDbContext.Cars;
+            return rentalDbContext.Cars.ToList();
         }
 
-        public void RentCar()
+        public string RentCar(int carId)
         {
+            var searchedCar = rentalDbContext.Cars.First(x => x.Id == carId);
 
+            if (searchedCar.IsAvailable)
+            {
+                searchedCar.IsAvailable = false;
+                rentalDbContext.SaveChanges();
+                return "Car is rented.";
+            }
+            else
+            {
+                return"Car is unavailable!";
+            }
+	
         }
 
         public bool CheckCarAvailability(int carId)

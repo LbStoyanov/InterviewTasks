@@ -26,6 +26,9 @@ namespace CarRentalTask.Models
         public string Model { get; set; }
 
         [Required]
+        public decimal Price { get; set; }
+
+        [Required]
         [MaxLength(GlobalConstants.GlobalConstants.CarColorlMaxLength)]
         public string Color { get; set; }
 
