@@ -1,6 +1,6 @@
 namespace CarRentalTask
 {
-    public class Program
+    public class StartUp
     {
         public static void Main(string[] args)
         {
