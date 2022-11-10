@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorBallsTask", "ColorBall
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotationMatrixTask", "..\RotationMatrixTask\RotationMatrixTask.csproj", "{A8382984-E562-45CB-8425-ABF4BE6D4463}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRentalTask", "..\CarRentalTask\CarRentalTask.csproj", "{DDC62AF9-E76B-4135-A0B2-F9B632FD64A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRentalTask", "..\CarRentalTask\CarRentalTask.csproj", "{06817C43-5560-4894-9BD7-A45098BC82BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{A8382984-E562-45CB-8425-ABF4BE6D4463}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8382984-E562-45CB-8425-ABF4BE6D4463}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8382984-E562-45CB-8425-ABF4BE6D4463}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DDC62AF9-E76B-4135-A0B2-F9B632FD64A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DDC62AF9-E76B-4135-A0B2-F9B632FD64A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DDC62AF9-E76B-4135-A0B2-F9B632FD64A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DDC62AF9-E76B-4135-A0B2-F9B632FD64A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06817C43-5560-4894-9BD7-A45098BC82BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06817C43-5560-4894-9BD7-A45098BC82BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06817C43-5560-4894-9BD7-A45098BC82BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06817C43-5560-4894-9BD7-A45098BC82BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
